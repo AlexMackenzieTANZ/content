@@ -838,6 +838,7 @@ Create a new case
 | --- | --- | --- |
 | title | Title of the case. | Required | 
 | description | Description of the case. | Required | 
+| template | The name of the case template. | Optional |
 | severity | Severity of the case (default = 2). Possible values are: 1, 2, 3. | Optional | 
 | startDate | Datetime the case was started on, for example, 2018-06-29 08:15:27.243860. | Optional | 
 | owner | Owner of the case. | Required | 
