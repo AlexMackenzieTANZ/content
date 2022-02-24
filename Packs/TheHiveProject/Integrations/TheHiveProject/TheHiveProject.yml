@@ -1,8 +1,8 @@
 commonfields:
-  id: TheHive Project
+  id: TheHive Project - Test
   version: -1
-name: TheHive Project
-display: TheHive Project
+name: TheHive Project - Test
+display: TheHive Project - Test
 category: Case Management
 description: Integration with The Hive Project Security Incident Response Platform.
 configuration:
@@ -704,6 +704,8 @@ script:
     - name: title
       required: true
       description: Title of the case.
+    - name: template
+      description: Name of the case template.
     - name: description
       required: true
       description: Description of the case.
